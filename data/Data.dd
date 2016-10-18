@@ -1,0 +1,23 @@
+Data
+cpp
+
+string
+basic
+
+Info = record {
+  crm_id : string,
+  name : string,
+  surname : string,
+  company : string,
+  street : string,
+  city : string,
+  zip : string,
+  email : string,
+  phone : string,
+  mobile : string,
+  www : string,
+  source : string,
+  status : string
+}
+
+Infos = array of Info

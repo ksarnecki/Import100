@@ -12,6 +12,8 @@ class DataUtil {
   public:
     static void printInfoCSV(Info&);
     static void printInfosCSV(Infos&);
+    
+    static void exportNamesFromCompany(Info&);
 };
 
 #endif
